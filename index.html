@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>palette</title>
+	<link rel="stylesheet" href="css/palette.css">
+	<link rel="stylesheet" href="css/iconfont.css">
+	<script src='js/palette.js'></script>
+</head>
+<body>
+	<div class='capacity'>
+		<div class="nwidth">宽：<input type="text" placeholder="画布宽度"></div>
+		<div class="nheight">高：<input type="text" placeholder='画布高度'></div>
+		<div class="yes">确定</div>
+		<div class="none">取消</div>
+	</div>
+	<div class='box'>
+		<div class="gongju">
+			<div class='newP iconfont' title="新增">&#xe60b;</div>
+			<div class="save iconfont" title='保存'>&#xe609;</div>
+			<div class="back iconfont" title="返回上一步">&#xe60a;</div>
+			<div class="next iconfont" title="当前下一步">&#xe60d;</div>
+			<p></p>
+			<div class="iconfont" role="line" title='直线'>&#xe601;</div>
+			<div class="iconfont" role="rect" title='矩形'>&#xe606;</div>
+			<div class="iconfont" role="tirangle" title='三角'>&#xe600;</div>
+			<div class="iconfont" role="circle" title='圆形'>&#xe608;</div>
+			<div class="iconfont" role="poly" title='多边形'>&#xe603;</div>
+			<div class="iconfont" role='polystar' title="多角形">&#xe602;</div>
+			<div class="iconfont" role="pencil" title='铅笔'>&#xe607;</div>
+			<div class="clear iconfont" title='橡皮擦'>&#xe60c;</div>
+			<p></p>
+			<div class='fill iconfont' title='填充模式'>&#xe604;</div>
+			<div class="stroke iconfont" title='描边模式'>&#xe605;</div>
+			<div class="fillColor iconfont" title='填充颜色'>&#xe60e;<input type="color"></div>
+			<div class="strokeColor iconfont" title='描边颜色'>&#xe60e;<input type="color"></div>
+			<p></p>
+			<div class="lineWidth iconfont" title="线条粗细">&#xe60f;<input type="range" max='50' min='1' value='1'><span class="xianshi">0</span></div>
+		</div>
+		<div class='palette'>
+		</div>
+	</div>
+</body>
+	<!-- var p=new palette(canvas.getContext('2d'),canvas);
+	p.draw(); -->
+<script src='js/jquery.min.js'></script>
+<script src='js/index.js'></script>
+</html>
